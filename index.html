@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Custom T-shirt Design - Home</title>
-  <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom T-shirt Design</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css"> <!-- Navbar styles -->
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="design.html">Design</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+
+    <!-- Navigation Bar (reused in all pages) -->
+    <nav class="navbar">
+        <div class="logo">CustomTee</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </nav>
-    <h1>Welcome to the Custom T-shirt Design Website</h1>
-  </header>
 
-  <section class="intro">
-    <h2>Create, Browse, and Purchase Unique T-shirt Designs</h2>
-    <p>Join our community of creative designers and discover exclusive T-shirt designs just for you.</p>
-  </section>
+    <!-- Hero Section (Example) -->
+    <section class="hero">
+        <h1>Design Your Own T-shirt</h1>
+        <p>Create unique and custom designs in minutes.</p>
+        <button>Start Designing</button>
+    </section>
 
-  <footer>
-    <p>&copy; 2024 Custom T-shirt Design</p>
-  </footer>
+    <!-- Main Content -->
+    <main>
+        <h2>Welcome to CustomTee</h2>
+        <p>Explore and design your own T-shirts!</p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CustomTee. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/navbar.js"></script> <!-- JS for navbar functionality -->
 </body>
 </html>
